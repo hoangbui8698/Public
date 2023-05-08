@@ -1,0 +1,8 @@
+jenkins ansible_host=172.31.40.185
+
+[jkns]
+jenkins
+
+[jkns:vars]
+ansible_user=ubuntu
+ansible_ssh_extra_vars='-o StrictHostKeyChecking=no'
